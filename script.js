@@ -16,3 +16,13 @@ const botao = document.querySelector("button")
             fonte++;
             document.body.style.fontSize = fonte + "px";
         }
+
+        //BOTÃO DO CONTRASTE
+const contraste = document.getElementById("contraste")
+contraste.addEventListener("click", mudarContraste)
+
+
+//FUNÇÃO DO CONTRASTE
+function mudarContraste(){
+document.body.style.color = 'yellow';
+}
